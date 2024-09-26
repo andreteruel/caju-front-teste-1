@@ -6,7 +6,7 @@ const registrationStatusStyles: {
     background: "#FDF8E9",
     title: "#EFC24D",
   },
-  APPROVED: {
+  APROVED: {
     background: "#EEEEFD",
     title: "#4242DF",
   },

@@ -30,5 +30,19 @@ export const ButtonSmall = styled.button<{
   cursor: pointer;
 `;
 
+export const ButtonModal = styled.button<{
+  bgcolor?: string;
+  color?: string;
+}>`
+  font-size: 14px;
+  outline: none;
+  border-radius: 25px;
+  border: none;
+  padding: 6px 24px;
+  background-color: ${(props) => props.bgcolor ?? 'none'};
+  color: ${(props) => props.color ?? "#000"};
+  cursor: pointer;
+`;
+
 
 export default Button;
